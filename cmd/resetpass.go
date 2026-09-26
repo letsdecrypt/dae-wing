@@ -7,9 +7,9 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/daeuniverse/dae-wing/cmd/internal"
-	"github.com/daeuniverse/dae-wing/db"
-	"github.com/daeuniverse/dae-wing/graphql"
+	"github.com/letsdecrypt/dae-wing/cmd/internal"
+	"github.com/letsdecrypt/dae-wing/db"
+	"github.com/letsdecrypt/dae-wing/graphql"
 	gonanoid "github.com/matoous/go-nanoid/v2"
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"

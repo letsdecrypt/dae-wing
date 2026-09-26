@@ -8,16 +8,16 @@ package node
 import (
 	"time"
 
-	"github.com/daeuniverse/dae-wing/common"
 	"github.com/graph-gophers/graphql-go"
+	"github.com/letsdecrypt/dae-wing/common"
 )
 
 type LatencyResolver struct {
-	NodeID    uint
+	NodeID     uint
 	LatencyMsV *int32
-	AliveVal  bool
-	TestedAtV time.Time
-	MessageV  *string
+	AliveVal   bool
+	TestedAtV  time.Time
+	MessageV   *string
 }
 
 func (r *LatencyResolver) ID() graphql.ID {

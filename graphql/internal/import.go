@@ -5,7 +5,7 @@
 
 package internal
 
-import "github.com/daeuniverse/dae-wing/common"
+import "github.com/letsdecrypt/dae-wing/common"
 
 type ImportArgument struct {
 	Link string

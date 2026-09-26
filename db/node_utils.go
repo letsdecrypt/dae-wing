@@ -9,8 +9,8 @@ import (
 	"context"
 	"strings"
 
-	"github.com/daeuniverse/dae-wing/common"
 	"github.com/daeuniverse/dae/component/outbound/dialer"
+	"github.com/letsdecrypt/dae-wing/common"
 
 	"github.com/sirupsen/logrus"
 )

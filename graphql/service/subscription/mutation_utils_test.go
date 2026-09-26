@@ -8,9 +8,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/daeuniverse/dae-wing/common"
-	"github.com/daeuniverse/dae-wing/db"
 	"github.com/graph-gophers/graphql-go"
+	"github.com/letsdecrypt/dae-wing/common"
+	"github.com/letsdecrypt/dae-wing/db"
 )
 
 type roundTripFunc func(*http.Request) (*http.Response, error)

@@ -1,4 +1,4 @@
-module github.com/daeuniverse/dae-wing
+module github.com/letsdecrypt/dae-wing
 
 go 1.26.0
 

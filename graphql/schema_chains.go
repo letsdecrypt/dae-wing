@@ -6,16 +6,16 @@
 package graphql
 
 import (
-	"github.com/daeuniverse/dae-wing/graphql/service"
-	"github.com/daeuniverse/dae-wing/graphql/service/config"
-	"github.com/daeuniverse/dae-wing/graphql/service/config/global"
-	"github.com/daeuniverse/dae-wing/graphql/service/dns"
-	"github.com/daeuniverse/dae-wing/graphql/service/general"
-	"github.com/daeuniverse/dae-wing/graphql/service/group"
-	"github.com/daeuniverse/dae-wing/graphql/service/node"
-	"github.com/daeuniverse/dae-wing/graphql/service/routing"
-	"github.com/daeuniverse/dae-wing/graphql/service/subscription"
-	"github.com/daeuniverse/dae-wing/graphql/service/user"
+	"github.com/letsdecrypt/dae-wing/graphql/service"
+	"github.com/letsdecrypt/dae-wing/graphql/service/config"
+	"github.com/letsdecrypt/dae-wing/graphql/service/config/global"
+	"github.com/letsdecrypt/dae-wing/graphql/service/dns"
+	"github.com/letsdecrypt/dae-wing/graphql/service/general"
+	"github.com/letsdecrypt/dae-wing/graphql/service/group"
+	"github.com/letsdecrypt/dae-wing/graphql/service/node"
+	"github.com/letsdecrypt/dae-wing/graphql/service/routing"
+	"github.com/letsdecrypt/dae-wing/graphql/service/subscription"
+	"github.com/letsdecrypt/dae-wing/graphql/service/user"
 )
 
 type SchemaChain func() (string, error)

@@ -2,13 +2,13 @@ package group
 
 import (
 	"context"
-	"regexp"
-	"github.com/daeuniverse/dae-wing/common"
-	"github.com/daeuniverse/dae-wing/db"
-	"github.com/daeuniverse/dae-wing/graphql/internal"
-	"github.com/daeuniverse/dae-wing/graphql/service/node"
-	"github.com/daeuniverse/dae-wing/graphql/service/subscription"
 	"github.com/graph-gophers/graphql-go"
+	"github.com/letsdecrypt/dae-wing/common"
+	"github.com/letsdecrypt/dae-wing/db"
+	"github.com/letsdecrypt/dae-wing/graphql/internal"
+	"github.com/letsdecrypt/dae-wing/graphql/service/node"
+	"github.com/letsdecrypt/dae-wing/graphql/service/subscription"
+	"regexp"
 )
 
 type Resolver struct {

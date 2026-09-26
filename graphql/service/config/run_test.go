@@ -3,8 +3,8 @@ package config
 import (
 	"testing"
 
-	"github.com/daeuniverse/dae-wing/dae"
 	daeConfig "github.com/daeuniverse/dae/config"
+	"github.com/letsdecrypt/dae-wing/dae"
 	"github.com/sirupsen/logrus"
 )
 

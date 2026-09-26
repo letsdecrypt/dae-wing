@@ -6,7 +6,7 @@
 package user
 
 import (
-	"github.com/daeuniverse/dae-wing/db"
+	"github.com/letsdecrypt/dae-wing/db"
 )
 
 type Resolver struct {

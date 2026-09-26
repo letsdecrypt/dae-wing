@@ -13,13 +13,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/daeuniverse/dae-wing/common"
-	"github.com/daeuniverse/dae-wing/dae"
-	"github.com/daeuniverse/dae-wing/db"
 	"github.com/daeuniverse/dae/common/netutils"
 	dialer "github.com/daeuniverse/dae/component/outbound/dialer"
 	"github.com/daeuniverse/outbound/protocol/direct"
 	"github.com/graph-gophers/graphql-go"
+	"github.com/letsdecrypt/dae-wing/common"
+	"github.com/letsdecrypt/dae-wing/dae"
+	"github.com/letsdecrypt/dae-wing/db"
 	"github.com/sirupsen/logrus"
 )
 

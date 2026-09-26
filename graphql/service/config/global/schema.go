@@ -7,8 +7,8 @@ package global
 
 import (
 	"fmt"
-	"github.com/daeuniverse/dae-wing/common"
 	daeConfig "github.com/daeuniverse/dae/config"
+	"github.com/letsdecrypt/dae-wing/common"
 	"github.com/sirupsen/logrus"
 	"github.com/stoewer/go-strcase"
 	"reflect"

@@ -9,11 +9,11 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/daeuniverse/dae-wing/dae"
-	"github.com/daeuniverse/dae-wing/db"
-	"github.com/daeuniverse/dae-wing/graphql"
 	daeConfig "github.com/daeuniverse/dae/config"
 	jsoniter "github.com/json-iterator/go"
+	"github.com/letsdecrypt/dae-wing/dae"
+	"github.com/letsdecrypt/dae-wing/db"
+	"github.com/letsdecrypt/dae-wing/graphql"
 	"github.com/spf13/cobra"
 )
 

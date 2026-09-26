@@ -4,9 +4,9 @@ import (
 	"context"
 	"testing"
 
-	"github.com/daeuniverse/dae-wing/common"
-	"github.com/daeuniverse/dae-wing/db"
 	"github.com/graph-gophers/graphql-go"
+	"github.com/letsdecrypt/dae-wing/common"
+	"github.com/letsdecrypt/dae-wing/db"
 )
 
 func TestGroupMutationErrors(t *testing.T) {

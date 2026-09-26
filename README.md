@@ -4,8 +4,8 @@
 
 [![License](https://img.shields.io/github/license/daeuniverse/dae-wing?style=flat-square&color=blue)](LICENSE)
 [![Go Version](https://img.shields.io/github/go-mod/go-version/daeuniverse/dae-wing?style=flat-square)](go.mod)
-[![Release](https://img.shields.io/github/v/release/daeuniverse/dae-wing?style=flat-square)](https://github.com/daeuniverse/dae-wing/releases)
-[![GitHub Stars](https://img.shields.io/github/stars/daeuniverse/dae-wing?style=flat-square)](https://github.com/daeuniverse/dae-wing/stargazers)
+[![Release](https://img.shields.io/github/v/release/daeuniverse/dae-wing?style=flat-square)](https://github.com/letsdecrypt/dae-wing/releases)
+[![GitHub Stars](https://img.shields.io/github/stars/daeuniverse/dae-wing?style=flat-square)](https://github.com/letsdecrypt/dae-wing/stargazers)
 
 ---
 
@@ -32,7 +32,7 @@
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/daeuniverse/dae-wing
+git clone https://github.com/letsdecrypt/dae-wing
 cd dae-wing
 git submodule update --init --recursive
 ```

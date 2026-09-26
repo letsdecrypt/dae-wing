@@ -19,7 +19,7 @@ else
 	VERSION ?= unstable-0.nogit
 endif
 
-GO_LDFLAGS := '-s -w -X github.com/daeuniverse/dae-wing/db.AppVersion=$(VERSION) -X github.com/daeuniverse/dae-wing/db.AppName=$(APPNAME) -X "github.com/daeuniverse/dae-wing/db.AppDescription=$(DESCRIPTION)" $(GO_LDFLAGS)'
+GO_LDFLAGS := '-s -w -X github.com/letsdecrypt/dae-wing/db.AppVersion=$(VERSION) -X github.com/letsdecrypt/dae-wing/db.AppName=$(APPNAME) -X "github.com/letsdecrypt/dae-wing/db.AppDescription=$(DESCRIPTION)" $(GO_LDFLAGS)'
 
 BUILD_ARGS := -trimpath -ldflags=$(GO_LDFLAGS) $(BUILD_ARGS)
 

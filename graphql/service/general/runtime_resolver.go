@@ -8,8 +8,8 @@ package general
 import (
 	"strconv"
 
-	"github.com/daeuniverse/dae-wing/dae"
 	"github.com/graph-gophers/graphql-go"
+	"github.com/letsdecrypt/dae-wing/dae"
 )
 
 type RuntimeOverviewResolver struct {

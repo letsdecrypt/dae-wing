@@ -15,7 +15,7 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/daeuniverse/dae-wing/pkg/sqlite"
+	"github.com/letsdecrypt/dae-wing/pkg/sqlite"
 	"gorm.io/gorm"
 	"gorm.io/gorm/logger"
 )

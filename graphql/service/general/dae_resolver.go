@@ -11,7 +11,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/daeuniverse/dae-wing/db"
+	"github.com/letsdecrypt/dae-wing/db"
 )
 
 type DaeResolver struct {

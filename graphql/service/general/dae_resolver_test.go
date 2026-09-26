@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/daeuniverse/dae-wing/db"
+	"github.com/letsdecrypt/dae-wing/db"
 )
 
 func TestModifiedWithMissingRunningIDs(t *testing.T) {

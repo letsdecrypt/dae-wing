@@ -11,9 +11,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/daeuniverse/dae-wing/dae"
-	"github.com/daeuniverse/dae-wing/db"
 	"github.com/graph-gophers/graphql-go"
+	"github.com/letsdecrypt/dae-wing/dae"
+	"github.com/letsdecrypt/dae-wing/db"
 	"gorm.io/gorm"
 )
 

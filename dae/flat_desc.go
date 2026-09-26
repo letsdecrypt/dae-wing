@@ -6,9 +6,10 @@
 package dae
 
 import (
-	"github.com/daeuniverse/dae-wing/common"
-	daeConfig "github.com/daeuniverse/dae/config"
 	"reflect"
+
+	daeConfig "github.com/daeuniverse/dae/config"
+	"github.com/letsdecrypt/dae-wing/common"
 )
 
 type FlatDesc struct {
